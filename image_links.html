@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+        }
+        .grid img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    <a href="https://www.example.com/Technology" target="_blank">
+         <img src="tech.jpg" alt="Technology image">
+    </a>
+
+    </header>
+    <section class="container">
+        <h2>Gallery</h2>
+        <div class="grid">
+            <a href="https://www.example.com/nature1" target="_blank">
+                <img src="nature1.jpg" alt="Nature 1">
+            </a>
+            <a href="https://www.example.com/nature2" target="_blank">
+                <img src="nature2.jpg" alt="Nature 2">
+            </a>
+            <a href="https://www.example.com/nature3" target="_blank">
+                <img src="nature3.jpg" alt="Nature 3">
+            </a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+    <section class="container">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fpizza%2F&psig=AOvVaw3GyjFcrYX_qdbZeRwYW3O7&ust=1710054924261000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNiu85TR5oQDFQAAAAAdAAAAABAE" target="_blank">Pizza</a></li>
+            <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Fsushi%2F&psig=AOvVaw2nLEEEF-MDqAko3SV0g0vB&ust=1710054988936000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJi--bPR5oQDFQAAAAAdAAAAABAE" target="_blank">Sushi</a></li>
+            <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fimages%2Fsearch%2Ftacos%2F&psig=AOvVaw0AH9uGnrKIWlxJb5feYp4H&ust=1710055032440000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKjG_sfR5oQDFQAAAAAdAAAAABAE" target="_blank">Tacos</a></li>
+            <!-- Add more food items as needed -->
+        </ul>
+    </section>
+</body>
+</html>
